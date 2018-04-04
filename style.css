@@ -1,0 +1,35 @@
+input,select{
+    /* display:inline-table; */
+    margin-bottom: 4px;
+}
+
+.row {
+    margin: auto;
+    width: 100%;
+    border: 3px solid green;
+    padding: 5px;
+}
+
+#h1{
+    text-align: center;
+    border: 3px solid green;
+}
+
+h3{
+    font-family: 'Trebuchet MS';
+    font-stretch: expanded;
+    font-style: italic;
+    text-align: center;
+}
+
+#h1:hover ~ #b {
+    visibility: visible;
+       }
+
+.bg-light{
+    border-radius: 10px;
+}
+
+#body1{
+    background-image: url();
+}

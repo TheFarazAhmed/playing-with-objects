@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>using objects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body id="body1">
+<div>
+    <h1 id="h1" onmouseover="ff();" onmouseout="fff();">S P L</h1>
+    <h1 id="b"></h1>
+    <h3>enter player in your team before someone else does</h3>
+</div>
+
+<div class="row">
+    <div class="col-sm-6 form-group bg-warning">
+        Player Name:<input type="text" id="name" class="form-control"> <br>
+        Country:<input type="text" id="country" class="form-control"> <br>
+        Age:<input type="text" name="" id="age" class="form-control"> <br>
+        Skill:<select name="skill" id="skill" > 
+            <option id="op1">Batsman</option>
+            <option id="op2">Bowler</option>
+            <option id="op3">All Rounder</option>
+        </select> <br><br>
+        <input type="button" id="ok" onclick="func1();" value="Add to Players" class="btn btn-primary">
+    </div>
+    <div class="col-sm-6 form-group bg-secondary">
+        <h2 class="bg-success">Players' List</h2> <br>
+        <input type="button" id="prev" value="Previous" class="btn btn-info" disabled="disabled" onclick="func3();">
+        <input type="button" id="next" value="Next" class="btn btn-info" onclick="func2();">
+        <div class="bg-light">
+        <h3 id="name1"></h3>
+        <h3 id="country1"></h3>
+        <h4 id="age1"></h4>
+        <h4 id="skill1"></h4>
+        </div>
+    </div>
+</div>
+<footer>
+        <div class="card-footer text-center bg-danger">
+              <a href="https://github.com/TheFarazAhmed" style="font-weight: bolder; font-family:Verdana; color:azure;"> coder: Faraz Ahmed </a>
+              </div>
+</footer>
+</body>
+<script src="app.js"></script>
+</html>
